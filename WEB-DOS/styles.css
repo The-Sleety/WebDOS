@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'MS-FONT';
+    src: url('./fonts/ModernDOS8x16.ttf') format('truetype');
+  }
+  
+  body {
+    font-family: 'MS-FONT', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    color: #e7e7e7;
+    padding: 0;
+    cursor: none; /* Hide the cursor */
+  }
+  
+  .window {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title-bar {
+    height: 30px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .title-bar-text {
+    font-weight: bold;
+    color: #e7e7e7;
+    font-family: 'MS-FONT', monospace;
+  }
+  
+  .window-body {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    font-family: 'MS-FONT', monospace;
+  }
+  
+  #output {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  input {
+    border: none;
+    outline: none;
+    font-family: 'MS-FONT', monospace;
+    font-size: 14px;
+    color: #e7e7e7;
+    background-color: #000;
+    width: 100%;
+  }
+  
