@@ -1,4 +1,4 @@
-![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Msdos-icon.svg/1200px-Msdos-icon.svg.png)
+![Logo](./)
 
 
 # WebDOS
