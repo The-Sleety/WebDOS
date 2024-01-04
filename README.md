@@ -26,11 +26,6 @@ WebDOS is a simple MS-DOS recreation in pure js, html and css.
 
 You can com eto my [discord server](https://discord.gg/ZAhjZnCUbd) and suggest me commands to add.
 
-## Screenshots
-
-![App Screenshot]()
-
-
 ## Authors
 
 - [@The-Sleety](https://github.com/The-Sleety)
